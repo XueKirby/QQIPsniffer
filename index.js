@@ -1,4 +1,4 @@
-﻿var siteUrl = "http://233.xuekirby.top/";//改成你的域名
+﻿var siteUrl = "http://test.xuekirby.top/";//改成你的域名
 var myApp = new Framework7({
 	modalTitle: 'QQIP探测',
 	material: true,
