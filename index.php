@@ -28,6 +28,14 @@
                                 <div class="list-block">
                                     <ul>
                                         <li>
+                                            <a href="./help.html" class="item-link item-content close-panel">
+                                                <div class="item-media">
+                                                    <i class="material-icons">help_outline</i></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title">使用教程</div></div>
+                                            </a>
+                                        </li>
+                                        <li>
                                             <a href="./usage.html" class="item-link item-content close-panel">
                                                 <div class="item-media">
                                                     <i class="material-icons">help_outline</i></div>
