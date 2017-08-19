@@ -1,4 +1,4 @@
-var siteUrl = "http://xuekirby.top/";//改成你的域名
+﻿var siteUrl = "http://xuekirby.top/";//改成你的域名
 var myApp = new Framework7({
 	modalTitle: 'QQIP探测',
 	material: true,
@@ -69,6 +69,13 @@ $$('#collect-submit').on('click', function(e) {
   console.log(url);
 	window.open(url);
 	myApp.alert('你的token是：<br/><a id="copy" data-clipboard-text="' + token + '">' + token + '</a><br/>你可以用这个Token来取回数据。')
+});
+$$('#collect-submit1').on('click', function(e) {
+	var ts = new Date().getTime().toString();
+	var token = CryptoJS.MD5(ts);
+	var
+	url = siteUrl+"share.php?_U=" + encodeURIComponent(CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse($$("#cover").val()))) + "&_T=" + encodeURIComponent(CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(token)));
+	myApp.alert('你的token是：<br/><a id="copy" data-clipboard-text="' + token + '">' + token + '</a><br/>你可以用这个Token来取回数据。<br/>你的网址是：<br/><a id="copy" data-clipboard-text="' + url + '">' + url+ '</a><br/>分享给好友探测ip。')
 });
 
 function ipip(ip) {
