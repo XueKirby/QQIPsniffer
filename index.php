@@ -6,14 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="purple" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="gray" />
         <meta name="theme-color" content="#9e9e9e" />
         <title>QQIP探测</title>
         <link href="https://cdn.bootcss.com/framework7/1.6.4/css/framework7.material.min.css" rel="stylesheet">
         <link href="https://cdn.bootcss.com/framework7/1.6.4/css/framework7.material.colors.min.css" rel="stylesheet">
-        <link href="./Roboto.css" rel="stylesheet">
-        <link href="./Material+Icons.css" rel="stylesheet">
-        <link rel="stylesheet" href="./index.css" /></head>
+        <link href="/css/Roboto.css" rel="stylesheet">
+        <link href="/css/Material+Icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/index.css" /></head>
         <?php $_GET['statusBarHeight']='0'; /*if(isset($_GET['statusBarHeight'])){*/ ?>
         <style>.statusbar-overlay{height:<?php echo $_GET['statusBarHeight']; ?>px;}.page{border-top:<?php echo $_GET['statusBarHeight']; ?>px solid #9e9e9e}.panel-left .list-block {margin:<?php echo $_GET['statusBarHeight']+2; ?>px 0;}</style>
         <?php /*}*/ ?>
@@ -165,7 +165,7 @@
                 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
                 <script src="https://cdn.bootcss.com/crypto-js/3.1.9/crypto-js.min.js"></script>
                 <script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script>
-                <script type="text/javascript" src="./index.js"></script>
+                <script type="text/javascript" src="/js/index.js"></script>
             </body>
 
 </html>
