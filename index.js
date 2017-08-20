@@ -89,12 +89,16 @@ function ipip(ip) {
 	})
 }
 myApp.addNotification({
+	message: '尽量不要发送到QQ群！',
+	hold: 3000
+});
+myApp.addNotification({
 	message: '欢迎访问我的GitHub静态页面:https://XueKirby.github.io',
-	hold: 30000
+	hold: 2500
 });
 myApp.addNotification({
 	message: '使用方法请单击左上角——>食用方法！',
-	hold: 15000
+	hold: 2000
 });
 myApp.addNotification({
 	message: '如果出现404，请将跳转链接改为腾讯的链接后再试。',
