@@ -17,7 +17,11 @@
         <?php $_GET['statusBarHeight']='0'; /*if(isset($_GET['statusBarHeight'])){*/ ?>
         <style>.statusbar-overlay{height:<?php echo $_GET['statusBarHeight']; ?>px;}.page{border-top:<?php echo $_GET['statusBarHeight']; ?>px solid #9e9e9e}.panel-left .list-block {margin:<?php echo $_GET['statusBarHeight']+2; ?>px 0;}</style>
         <?php /*}*/ ?>
-
+		<?php    
+            if(!isset($_POST['submit'])){  
+            exit('非法访问!');  
+}       {
+        ?> 
             <body class="theme-gray">
                 <div class="statusbar-overlay"></div>
                 <div class="panel-overlay"></div>
