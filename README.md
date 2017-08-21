@@ -1,7 +1,7 @@
 # QQ-IP
 ### 深邃灰色
 
-> ## 本项目基于GitHub开源项目：[https://github.com/Alisummer/QQIPDetector]与[https://github.com/PrintNow/QQipTance]二次开发，感谢原作者。
+> ## 本项目基于GitHub开源项目：[https://github.com/Alisummer/QQIPDetector] 与 [https://github.com/PrintNow/QQipTance] 二次开发，感谢原作者。
 
 ## 功能
 探测某个或某些QQ用户的IP
