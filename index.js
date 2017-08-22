@@ -20,6 +20,19 @@ $$(document).on('ajaxStart', function(e) {
 $$(document).on('ajaxComplete', function(e) {
 	myApp.hideIndicator()
 });
+$$('#get-submit').on('click', function(e){
+    var token = $$('#token').val()
+   if(token != ''){
+       $$('#get-submit').attr('href', './data.php?token=' + $$('#token').val())
+   } else {
+       myApp.addNotification({
+           message: '你没填Token...',
+           hold: 1000
+       });
+       return
+   }
+});
+
 $$('#token').on("focusout", function(e) {
 	var ts = new Date().getTime().toString();
 	$$('#get-submit').attr('href', './data.php?token=' + $$('#token').val() + '&_ts=' + ts)
