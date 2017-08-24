@@ -16,7 +16,11 @@
 }
 
 .page-panel-left {
-	margin-top: 5px
+    border-top: 48px solid #A52A2A;
+    margin-top: -24px;
+    body.with-panel-left-cover .statusbar-overlay{
+    background-color: #333;
+    }
 }
 
 .inputs-list .item-content {
