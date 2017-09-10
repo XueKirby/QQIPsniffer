@@ -154,7 +154,7 @@
 											<i class="icon icon-close"></i>
 									</a>
 											<div class="speed-dial-buttons">
-												<a id="collect-submit1" href="javascript:void(0);" > 链</a>
+												<a id="collect-submit1" href="javascript:void(0);" >链</a>
 												<a id="collect-submit" href="javascript:void(0);">享</a>
 												<a id="get-submit" href="javascript:void(0);">取</a>
 											</div>
