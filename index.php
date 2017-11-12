@@ -8,8 +8,8 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="theme-color" content="#ff3b30" />
         <title>QQIP探测</title>
-        <link href="https://cdn.bootcss.com/framework7/1.6.4/css/framework7.material.min.css" rel="stylesheet">
-        <link href="https://cdn.bootcss.com/framework7/1.6.4/css/framework7.material.colors.min.css" rel="stylesheet">
+        <link href="/css/framework7.material.min.css" rel="stylesheet">
+        <link href="/css/framework7.material.colors.min.css" rel="stylesheet">
         <link href="/css/Roboto.css" rel="stylesheet">
         <link href="/css/Material+Icons.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/index.css" /></head>
@@ -164,11 +164,11 @@
                         </div>
                     </div>
                 </div>
-                <script type="text/javascript" src="https://cdn.bootcss.com/framework7/1.6.4/js/framework7.min.js"></script>
-                <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-                <script src="https://cdn.bootcss.com/crypto-js/3.1.9/crypto-js.min.js"></script>
-                <script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script>
-                <script type="text/javascript" src="./index.js"></script>
+                <script type="text/javascript" src="/js/framework7.min.js"></script>
+                <script src="/js/jquery.min.js"></script>
+                <script src="/js/crypto-js.min.js"></script>
+                <script src="/js/clipboard.min.js"></script>
+                <script type="text/javascript" src="/js/index.js"></script>
             </body>
 
 </html>
